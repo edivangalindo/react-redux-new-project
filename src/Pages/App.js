@@ -7,7 +7,7 @@ import './App.css';
 class App extends Component {
     constructor(props) {
         super(props);
-        this.state = { inputValue : '' }
+        this.state = { inputValue: '' }
     }
 
     inputChange = (event) => {
